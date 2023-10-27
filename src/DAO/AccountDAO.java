@@ -29,7 +29,6 @@ public class AccountDAO {
     private static final Charset UTF_8 = StandardCharsets.UTF_8;
     private static AccountDAO instance;
     Account account = new Account();
-
     public AccountDAO() {
     }
 
