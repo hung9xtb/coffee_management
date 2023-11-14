@@ -73,6 +73,7 @@ public class QuanLyThongKe extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
+        tblThongKe.setEnabled(false);
         jScrollPane1.setViewportView(tblThongKe);
 
         btnHome.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -97,7 +98,7 @@ public class QuanLyThongKe extends javax.swing.JFrame {
                         .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 279, Short.MAX_VALUE)
                         .addGap(236, 236, 236))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 713, Short.MAX_VALUE)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 717, Short.MAX_VALUE)
                         .addContainerGap())))
         );
         layout.setVerticalGroup(

@@ -148,6 +148,7 @@ public class QuanLyThucDon extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
+        tblOrder.setEnabled(false);
         jScrollPane2.setViewportView(tblOrder);
 
         btnPay.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
