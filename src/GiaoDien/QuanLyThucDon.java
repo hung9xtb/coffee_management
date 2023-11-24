@@ -283,7 +283,7 @@ public class QuanLyThucDon extends javax.swing.JFrame {
     private void tblTablesMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tblTablesMouseClicked
             // TODO add your handling code here:
             int row = tblTables.getSelectedRow();
-
+            totalPrice = 0;
 
             if ((tblTables.getValueAt(row, 2) + "").equals("Đã đặt")) {
                     btnPay.setEnabled(true);
